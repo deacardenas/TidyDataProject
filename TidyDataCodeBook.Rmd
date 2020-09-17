@@ -3,9 +3,7 @@ title: "Tidy Data Code Book"
 author: "Andrea Cárdenas"
 date: "17/9/2020"
 output:
-  pdf_document: default
-  html_document:
-    df_print: paged
+  html_document: default
 urlcolor: blue
 ---
 
