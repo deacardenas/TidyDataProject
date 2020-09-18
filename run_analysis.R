@@ -53,4 +53,4 @@ library(dplyr)
 tidymeans <- tidydata %>% group_by(SubjectID,Activity) %>% summarise_all(mean)
 
 # Save new tidy data set to working directory
-write.table(tidymeans, "tidymeans.txt") 
+write.table(tidymeans, "tidymeans.txt", row.name=FALSE) 
